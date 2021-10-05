@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const MenuBar = () => {
@@ -17,7 +17,7 @@ const MenuBar = () => {
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl  group-focus:text-white " to="/home">Home</NavLink>
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/about">About Us</NavLink>
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/courses">All Courses</NavLink>
-                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/teachers">Teachers</NavLink>
+                 <Link className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/teacher">Teachers</Link>
             </div>
             </div>
             

@@ -30,7 +30,7 @@ function App() {
 
         </Route>
     
-        <Route exact path="/teachers">
+        <Route path="/teacher">
          <Teacher></Teacher>
      </Route>
        
