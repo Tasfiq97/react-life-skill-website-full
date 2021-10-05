@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import TeacherDetail from '../TeacherDetail/TeacherDetail';
 
 const Teacher = () => {
