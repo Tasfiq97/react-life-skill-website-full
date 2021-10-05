@@ -4,7 +4,7 @@ const UseHooks=()=>{
     const [fullCourses,setfullCourses]=useState([]);
 
     useEffect(()=>{
-        fetch("./data.json")
+        fetch("/data.json")
         .then(res=>res.json())
         .then(data=>setfullCourses(data))
     },[])
