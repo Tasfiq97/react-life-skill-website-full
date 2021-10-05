@@ -1,8 +1,6 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-
 const FullCourse = (props) => {
-    const {name,id,image,description,price}=props.course;
+    const {name,image,description,price}=props.course;
  
  
     return (
@@ -14,12 +12,7 @@ const FullCourse = (props) => {
             <h1 className="text-2xl font-bold mt-3 ">{name}</h1>
             <p className="text-1xl mt-6 ">{description.slice(0,400)}</p>
             <p className="text-3xl text-center text-black mt-5 p-4 bg-white font-semibold">Price: $ <span className="text-yellow-600"> {price}</span> </p>
-            <div className="text-center">
-               <NavLink to={`/cart/${id}`}>
-           <button  className=" text-1xl font-bold border-2 border-black bg-white mt-5 rounded hover:bg-yellow-300 text-center pl-9 pr-9 pt-4 pb-5 transition duration-300 ease-in-out ">Select this Course</button>
-           </NavLink>
-         
-           </div>
+            
            </div>
 
         </div>

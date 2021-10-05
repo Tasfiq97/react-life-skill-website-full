@@ -17,10 +17,10 @@ const MenuBar = () => {
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl  group-focus:text-white " to="/home">Home</NavLink>
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/about">About Us</NavLink>
                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/courses">All Courses</NavLink>
-                <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/cart">Course Cart</NavLink>
+                 <NavLink className="p-4 mr-5 hover:bg-white transition duration-500 ease-in-out rounded-3xl"  to="/teachers">Teachers</NavLink>
+            </div>
             </div>
             
-        </div>
 
             
     );

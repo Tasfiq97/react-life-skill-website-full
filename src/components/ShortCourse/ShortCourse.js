@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import UseHooks from '../../CustomHooks/UseHooks';
 import ShortCourseDetails from '../ShortCourseDetail/ShortCourseDetails';
 

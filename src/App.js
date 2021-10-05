@@ -8,8 +8,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Courses from './components/Courses/Courses';
 import Footer from './components/Footer/Footer';
-
-import Cart from './components/Cart/Cart';
+import Teacher from './components/Teacher/Teacher';
 
 
 function App() {
@@ -31,14 +30,10 @@ function App() {
 
         </Route>
     
-        <Route exact path="/cart">
-         
-            <Cart></Cart>
-        </Route>
-        <Route exact path="/cart/:id">
-         
-            <Cart></Cart>
-        </Route>
+        <Route exact path="/teachers">
+         <Teacher></Teacher>
+     </Route>
+       
        
         <Route exact path="/">
         <Home></Home>
